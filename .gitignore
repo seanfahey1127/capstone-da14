@@ -6,8 +6,18 @@ __pycache__/
 # C extensions
 *.so
 
-#data
-data/
+# Ignore only large CSVs in data folder
+data/noaa_df_1.csv
+data/noaa_df_2.csv
+data/armistead_df_final.csv
+
+
+# But do NOT ignore zipped files or smaller CSVs
+!data/*.zip
+!data/crab_species_clean.csv
+!data/DecadeTable.csv
+
+
 
 # Distribution / packaging
 .Python
