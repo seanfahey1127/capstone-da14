@@ -34,9 +34,9 @@ Otherwise, please view the screenshots below or open the `.pbix` file directly i
 ## 🗂️📽️ Project Files
 
 - `CrunchingCrab.pbix`: Main Power BI report file (includes visuals, model, and transformations)
-- `data/armistead_df_final.csv`: Cleaned dataset from Armistead survey
-- `data/noaa_df_1.csv`: NOAA crab survey data (used for summary visuals)
-- `data/noaa_df_2.csv`: NOAA disease survey data
+- `data/armistead_df_final.zip`: Cleaned dataset from Armistead survey
+- `data/noaa_df_1.zip`: NOAA crab survey data (used for summary visuals)
+- `data/noaa_df_2.zip`: NOAA disease survey data
 - `data/crab_species_clean.csv`: Reference table of crab species
 - `data/DecadeTable.csv`: Helper table for decade filtering
 - `visuals/`: Folder containing report screenshots
@@ -75,13 +75,17 @@ Otherwise, please view the screenshots below or open the `.pbix` file directly i
 
 1. Clone or download this repository  
 2. Open `CrunchingCrab.pbix` using [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/)
-3. Ensure the CSV files in `/data` are available in the same structure
+3. Make sure the `/data` folder (with zipped and CSV files) is present and maintains the same folder structure
 4. Explore and interact with the report using slicers and visuals
 
 ---
 
 ## 📬📩 Contact
 
-For questions or feedback, feel free to open an issue or reach out through GitHub.
+For questions or feedback, feel free to open an issue or reach out through GitHub or contact me directly:
+- Email: seanfahey1127@gmail.com
+- LinkedIn: linkedin.com/in/seanfahey1127
+
+
 
 ---
